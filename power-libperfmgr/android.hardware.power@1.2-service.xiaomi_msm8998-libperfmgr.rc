@@ -11,6 +11,10 @@ on property:vendor.post_boot.parsed=1
     chown system system /sys/devices/soc/soc:qcom,cpubw/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory
     chown system system /sys/devices/soc/soc:qcom,cpubw/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_length
 
+on property:sys.boot_completed=1
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
 service vendor.power-hal-1-2 /vendor/bin/hw/android.hardware.power@1.2-service.xiaomi_msm8998-libperfmgr
     class hal
     user system
