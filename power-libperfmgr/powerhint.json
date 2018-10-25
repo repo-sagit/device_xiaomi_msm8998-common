@@ -63,26 +63,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "GPUMinFreq",
-      "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
-      "Values": [
-        "515000000",
-        "414000000",
-        "257000000"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "GPUBusMinFreq",
-      "Path": "/sys/class/devfreq/soc:qcom,gpubw/min_freq",
-      "Values": [
-        "11863",
-        "7759",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "TASchedtuneBoost",
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
@@ -237,78 +217,6 @@
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
       "Duration": 2000,
-      "Value": "13763"
-    },
-    {
-      "PowerHint": "CAMERA_STREAMING",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 1000,
-      "Value": "2457600"
-    },
-    {
-      "PowerHint": "CAMERA_STREAMING",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 1000,
-      "Value": "2457600"
-    },
-    {
-      "PowerHint": "CAMERA_STREAMING",
-      "Node": "CPULittleClusterMinFreq",
-      "Duration": 1000,
-      "Value": "1900800"
-    },
-    {
-      "PowerHint": "CAMERA_STREAMING",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 1000,
-      "Value": "44"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 1000,
-      "Value": "2457600"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 1000,
-      "Value": "2457600"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "CPULittleClusterMinFreq",
-      "Duration": 1000,
-      "Value": "1900800"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "PMQoSCpuDmaLatency",
-      "Duration": 1000,
-      "Value": "44"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "CPUBWHystTriggerCount",
-      "Duration": 1000,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "CPUBWHystLength",
-      "Duration": 1000,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "CPUBWHistMemory",
-      "Duration": 1000,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "CAMERA_SHOT",
-      "Node": "CPUBWMinFreq",
-      "Duration": 1000,
       "Value": "13763"
     },
     {
