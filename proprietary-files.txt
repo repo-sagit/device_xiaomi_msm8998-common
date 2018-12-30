@@ -347,7 +347,7 @@ lib64/vendor.qti.hardware.radio.ims@1.0.so:vendor/lib64/vendor.qti.hardware.radi
 lib64/vendor.qti.ims.callinfo@1.0.so:vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 lib64/vendor.qti.ims.rcsconfig@1.0.so:vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 lib64/vendor.qti.imsrtpservice@1.0.so
--priv-app/ims/ims.apk
+-priv-app/ims/ims.apk|d7fc9fc0097d6b68b7d0f2ce7e1e194ed8116d2f
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
