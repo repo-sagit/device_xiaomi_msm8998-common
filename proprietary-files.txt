@@ -576,10 +576,10 @@ vendor/lib64/sensors.ssc.so
 
 # Soter
 -app/SoterService/SoterService.apk
+lib64/vendor.qti.hardware.soter@1.0.so:vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
-lib64/vendor.qti.hardware.soter@1.0.so:vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Thermal
 vendor/bin/thermal-engine
