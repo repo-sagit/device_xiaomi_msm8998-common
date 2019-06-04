@@ -394,5 +394,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Call XiaomiCustom
+$(call inherit-product, vendor/XiaomiCustom/XiaomiCustom.mk)
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/msm8998-common/msm8998-common-vendor.mk)
